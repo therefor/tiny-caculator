@@ -1,0 +1,99 @@
+body{
+    background-color: grey;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#calculator{
+    background-color: #cccccc;
+    margin: 5% auto auto auto;
+    width: 300px;
+    height: 410px;
+    border-radius: 20px;
+    border: 2px solid #908b85;
+    box-shadow: 8px 8px 25px #1f2d2d, inset -4px -8px 17px 0.1px #89847e;
+}
+
+#title{
+    margin: 15px auto 5px auto;
+}
+
+#lcdBoard{
+    background-color: #87abab;
+    width: 85%;
+    height: 19%;
+    margin: 15px auto 15px auto;
+    border: 2px solid #908b85;
+    border-radius: 7px;
+    box-shadow: inset 1px 1px 2px 0.1px #89847e;
+    font-size: 14px;
+}
+
+#lcdTop{
+    margin: 1px 10px -5px auto;
+    font-size: 35px;
+}
+
+#lcdButtom{
+    margin-right: 11px;
+}
+
+.buttons{
+    display: inline-block;
+    font-size: 25px;
+    width: 87%;
+    margin: auto;
+    color: #cccccc;
+}
+
+button{
+    background-color: #333333;
+    border: 2px ouset white;
+    border-radius: 6px;
+    width: 55px;
+    height: 41px;
+    margin: 4px 2px 4px 2px;
+    box-shadow: 2px 2px 3px #1f2d2d;
+    transition: opacity 1s;
+}
+
+
+
+.add{
+    position: absolute;
+    height: 90px;
+    margin-top: -45px;
+    margin-left: 200px;
+}
+
+.equal{
+    width: 121px;
+}
+
+button:active {
+    transform: translate(0px, 2px);
+    box-shadow: 1px 2px 3px #1f2d2d;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+button:hover{
+    opacity: 0.77;
+}
+
+.brown{
+    background-color: brown;
+}
+
+#footer{
+    margin-top: 20px;
+}
+
+#author{
+    color: silver;
+}
