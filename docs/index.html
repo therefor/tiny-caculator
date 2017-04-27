@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>TINY CALCULATOR</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!-- base url -->
+    <!--base href="/"-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet"
+          href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+    <div class = "container-fluid text-center">
+        <div id = "calculator">
+            <div id = "title">TINY CALCULATOR</div>
+            <div id = "lcdBoard">
+                <div id = "lcdTop" class = "text-right">0</div>
+                <div id = "lcdButtom" class = "text-right">0</div>
+            </div>
+            <div class = "buttons">
+
+                <button value = "AC" class = "brown" type="button" >AC</button>
+                <button value = "CE" class = "brown" type="button" >CE</button>
+                <button value = "/" type="button" >/</button>
+                <button value = "X" type="button" >X</button>
+
+                <button value = "7" type="button" >7</button>
+                <button value = "8" type="button" >8</button>
+                <button value = "9" type="button" >9</button>
+                <button value = "-" type="button" >-</button>
+
+                <button value = "4" type="button" >4</button>
+                <button value = "5" type="button" >5</button>
+                <button value = "6" type="button" >6</button>
+                <button class = "invisible">i</button>
+                <button class = "add" value = "+" type="button" >+</button>
+
+                <button value = "1" type="button" >1</button>
+                <button value = "2" type="button" >2</button>
+                <button value = "3" type="button" >3</button>
+                <button class = "invisible">i</button>
+
+                <button value = "0" type="button" >0</button>
+                <button value = "." type="button" >.</button>
+                <button class = "equal" value = "=" type="button" >=</button>
+
+
+            </div>
+        </div>
+
+        <div id = "footer">
+            Designed & Coded by <a id = "author" href = "http://codepen.io/StephenZhong/">Stephen Zhong</a>
+        </div>
+
+    </div>
+</body>
+</html>
